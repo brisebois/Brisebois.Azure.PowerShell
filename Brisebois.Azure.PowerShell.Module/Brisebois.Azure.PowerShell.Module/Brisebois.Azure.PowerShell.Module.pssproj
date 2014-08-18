@@ -27,9 +27,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="ApiManagement-ManagementApi.psm1" />
     <Content Include="ApiManagementModule.psm1" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="API-Management-Automation-Test.ps1" />
     <Compile Include="SqlDatabaseModule.psd1" />
     <Compile Include="Module.psm1" />
   </ItemGroup>
